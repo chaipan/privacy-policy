@@ -1,3 +1,3 @@
 # privacy-policy
 
-[Learn & Pop Chinese](./privacy-policy.html)
+[Learn & Pop Chinese](./Learn & Pop Chinese.html)
