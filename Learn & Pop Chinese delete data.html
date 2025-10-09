@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Personal Data - Learn & Pop Chinese</title>
+    <style>
+      body {
+        font-family: "Microsoft YaHei", Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #fafafa;
+        color: #222;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #2d8cf0;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .contact-info {
+        background-color: #e6f7ff;
+        border-left: 4px solid #2d8cf0;
+        padding: 15px;
+        margin: 20px 0;
+      }
+      .steps {
+        counter-reset: step-counter;
+        list-style: none;
+        padding: 0;
+      }
+      .steps li {
+        counter-increment: step-counter;
+        margin-bottom: 20px;
+        padding-left: 45px;
+        position: relative;
+      }
+      .steps li::before {
+        content: counter(step-counter);
+        background: #2d8cf0;
+        color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        left: 0;
+        top: 3px;
+      }
+      .email-link {
+        display: inline-block;
+        background: #2d8cf0;
+        color: white;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        margin: 20px 0;
+        transition: background 0.3s;
+      }
+      .email-link:hover {
+        background: #1a7ae0;
+      }
+      .note {
+        background-color: #fffbe6;
+        border-left: 4px solid #ffd700;
+        padding: 15px;
+        margin: 20px 0;
+      }
+      footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #666;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Request Personal Data Deletion</h1>
+      <p>
+        As per our Privacy Policy, you have the right to request deletion of
+        your personal data associated with "Learn & Pop Chinese".
+      </p>
+
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> pank.dev.studio@gmail.com</p>
+      </div>
+
+      <h2>How to Request Data Deletion</h2>
+      <ol class="steps">
+        <li>
+          <strong>Send an Email</strong>
+          <p>
+            Click the button below to open your email client and compose a data
+            deletion request. Alternatively, you can manually send an email to
+            our support address.
+          </p>
+        </li>
+        <li>
+          <strong>Include Required Information</strong>
+          <p>In your email, please include the following information:</p>
+          <ul>
+            <li>Your full name</li>
+            <li>The email address associated with your account</li>
+            <li>A clear statement requesting deletion of your personal data</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Verification Process</strong>
+          <p>
+            We will verify your identity before processing your request. This
+            may involve confirming your email address or other account details.
+          </p>
+        </li>
+        <li>
+          <strong>Data Deletion</strong>
+          <p>
+            Once verified, we will proceed to delete your personal data within
+            30 days as outlined in our Privacy Policy.
+          </p>
+        </li>
+      </ol>
+
+      <div style="text-align: center">
+        <a
+          href="mailto:pank.dev.studio@gmail.com?subject=Data Deletion Request for Learn & Pop Chinese&body=Please delete my personal data associated with Learn & Pop Chinese.%0A%0AMy details:%0A- Full Name:%0A- Email Address associated with the app:%0A%0AI confirm this request to delete all my personal data."
+          class="email-link"
+        >
+          Send Deletion Request Email
+        </a>
+      </div>
+
+      <div class="note">
+        <h3>Important Notes</h3>
+        <ul>
+          <li>
+            Data deletion requests are processed within 30 days of verification
+          </li>
+          <li>
+            Some non-identifiable data may be retained for legal or analytical
+            purposes
+          </li>
+          <li>
+            This action is irreversible and will permanently delete your account
+            data
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <p>Last Updated: October 10, 2025</p>
+        <p>Learn & Pop Chinese - Committed to protecting your privacy</p>
+      </footer>
+    </div>
+  </body>
+</html>
